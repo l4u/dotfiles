@@ -10,6 +10,12 @@ Installing fish config
 ```
 stow -vvt $HOME fish --ignore .DS_Store
 ```
+
+Install all configs
+```
+stow (ls -d */) -t ~
+```
+
 ## Brewfile
 
 Install
