@@ -17,6 +17,7 @@ Installing config for VSCode. See https://github.com/Microsoft/vscode/issues/388
 stow -vvt "$HOME/Library/Application Support/Code/User" vscode --ignore .DS_Store
 ```
 
-## Other dotfiles
+## Other dotfiles and tools
 
-* https://dotfiles.github.io
+- https://dotfiles.github.io
+- https://github.com/lra/mackup
