@@ -7,6 +7,8 @@ abbr c "git commit -am"
 abbr gd "git diff"
 abbr gs "git status"
 abbr v nvim
+abbr vi nvim
+abbr vim nvim
 abbr g rg
 
 # go
