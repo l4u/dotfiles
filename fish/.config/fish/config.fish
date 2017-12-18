@@ -1,4 +1,5 @@
 set -g theme_color_scheme base16-dark
+set -g theme_date_format "+%H:%M"
 set -x EDITOR nvim
 
 # alias
