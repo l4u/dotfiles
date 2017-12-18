@@ -31,6 +31,11 @@ Plug 'ntpeters/vim-better-whitespace'
 " Languages
 Plug 'sheerun/vim-polyglot'
 Plug 'nsf/gocode'
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': './install.sh'
+    \ }
+Plug 'reasonml-editor/vim-reason-plus'
 
 call plug#end()
 
@@ -80,3 +85,7 @@ let g:gitgutter_enabled = 1
 " javascript
 let g:javascript_plugin_flow = 1
 
+let g:LanguageClient_serverCommands = {
+    \ 'reason': ['ocaml-language-server', '--stdio'],
+    \ 'ocaml': ['ocaml-language-server', '--stdio'],
+    \ }
