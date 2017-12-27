@@ -25,6 +25,7 @@
                         "vendor_id": 1452
                     },
                     "ignore": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": [
                         {
                             "from": {
@@ -71,6 +72,7 @@
                         "vendor_id": 1452
                     },
                     "ignore": true,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": []
                 },
                 {
@@ -84,6 +86,7 @@
                         "vendor_id": 2131
                     },
                     "ignore": false,
+                    "manipulate_caps_lock_led": false,
                     "simple_modifications": [
                         {
                             "from": {
@@ -114,6 +117,7 @@
                         "vendor_id": 7119
                     },
                     "ignore": false,
+                    "manipulate_caps_lock_led": false,
                     "simple_modifications": []
                 }
             ],
@@ -300,6 +304,7 @@
                         "vendor_id": 1452
                     },
                     "ignore": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": [
                         {
                             "from": {
