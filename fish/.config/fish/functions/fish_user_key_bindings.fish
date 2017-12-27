@@ -35,4 +35,6 @@ function fish_user_key_bindings
         end
     end
     ### fzf ###
+
+    bind \co o
 end
