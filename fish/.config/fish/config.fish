@@ -15,6 +15,9 @@ abbr g rg
 set -x GOPATH ~/Projects/Go/
 set -x PATH $GOPATH/bin $PATH
 
+# rust
+set -x PATH $HOME/.cargo/bin $PATH
+
 # autojump
 [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
 alias j="cd (cat ~/Library/autojump/autojump.txt | sort -nr | awk '{print \$2}' | fzf +s)"
