@@ -32,3 +32,9 @@ function o --description 'open mac apps'
   open (fd -eapp -d2 '' /Applications | fzf)
 end
 
+# emsdk
+set -x PATH $HOME/emsdk-portable/clang/fastcomp/build_incoming_64/bin $PATH
+set -x PATH $HOME/emsdk-portable/node/4.1.1_64bit/bin $PATH
+set -x PATH $HOME/emsdk-portable/emscripten/incoming $PATH
+set -x EMSDK $HOME/emsdk-portable $PATH
+set -x EMSCRIPTEN $HOME/emsdk-portable/emscripten/incoming $PATH
