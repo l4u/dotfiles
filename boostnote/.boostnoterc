@@ -1,0 +1,33 @@
+{
+    "amaEnabled": true,
+    "editor": {
+        "fontFamily": "Meslo LG M Regular for Powerline",
+        "fontSize": "14",
+        "indentSize": "4",
+        "indentType": "space",
+        "keyMap": "vim",
+        "switchPreview": "BLUR",
+        "theme": "base16-dark"
+    },
+    "hotkey": {
+        "toggleFinder": "Cmd + Shift + S",
+        "toggleMain": "Cmd + Shift + L"
+    },
+    "isSideNavFolded": false,
+    "listStyle": "DEFAULT",
+    "listWidth": 240,
+    "navWidth": 150,
+    "preview": {
+        "codeBlockTheme": "dracula",
+        "fontFamily": "Lato",
+        "fontSize": "14",
+        "lineNumber": true
+    },
+    "sortBy": "UPDATED_AT",
+    "ui": {
+        "defaultNote": "ALWAYS_ASK",
+        "disableDirectWrite": false,
+        "theme": "dark"
+    },
+    "zoom": 1
+}
