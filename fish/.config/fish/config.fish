@@ -29,7 +29,7 @@ set -x FZF_CTRL_T_COMMAND $FZF_DEFAULT_COMMAND
 
 # open mac applications
 function o --description 'open mac apps'
-  open (fd -eapp -d2 '' /Applications | fzf)
+  open (fd -eapp -d2 '' /Applications ~/Applications | fzf)
 end
 
 # emsdk
