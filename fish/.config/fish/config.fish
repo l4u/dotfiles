@@ -33,8 +33,12 @@ function o --description 'open mac apps'
 end
 
 # emsdk
-set -x PATH $HOME/emsdk-portable/clang/fastcomp/build_incoming_64/bin $PATH
-set -x PATH $HOME/emsdk-portable/node/4.1.1_64bit/bin $PATH
-set -x PATH $HOME/emsdk-portable/emscripten/incoming $PATH
-set -x EMSDK $HOME/emsdk-portable $PATH
-set -x EMSCRIPTEN $HOME/emsdk-portable/emscripten/incoming $PATH
+#set -x PATH $HOME/emsdk-portable/clang/fastcomp/build_incoming_64/bin $PATH
+#set -x PATH $HOME/emsdk-portable/node/4.1.1_64bit/bin $PATH
+#set -x PATH $HOME/emsdk-portable/emscripten/incoming $PATH
+#set -x EMSDK $HOME/emsdk-portable $PATH
+#set -x EMSCRIPTEN $HOME/emsdk-portable/emscripten/incoming $PATH
+
+# opam
+source $HOME/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+
