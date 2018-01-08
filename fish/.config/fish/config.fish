@@ -40,5 +40,6 @@ end
 #set -x EMSCRIPTEN $HOME/emsdk-portable/emscripten/incoming $PATH
 
 # opam
-source $HOME/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+#source $HOME/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
 
+#nvm_alias_command
